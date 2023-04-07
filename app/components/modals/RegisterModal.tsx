@@ -7,7 +7,7 @@ import { useCallback, useState } from "react";
 
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 
-import useRegisterModal from "@/app/api/hooks/useRegisterModel";
+import useRegisterModal from "@/app/hooks/useRegisterModel";
 import Modal from "./Modal";
 import Heading from "../Heading";
 import Input from "../inputs/Input";

@@ -4,7 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Avatar from "../Avatar";
 import { useCallback, useState } from "react";
 import MenuItem from "./MenuItem";
-import useRegisterModal from "@/app/api/hooks/useRegisterModel";
+import useRegisterModal from "@/app/hooks/useRegisterModel";
 
 const UserMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
